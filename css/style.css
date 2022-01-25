@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -18,6 +19,8 @@ body{
     background-color: #e7e6e6;
     margin-top: 0px;
     margin-left: 0px;
+    
+    
 }
 
 #logo {
@@ -35,3 +38,28 @@ body{
     border-radius: 7px;
 }
 
+#buttons{
+    display: inline-block;
+    padding-top: 40px;
+    border-bottom: 2px solid #e7e6e6;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    width: 100%;
+}
+
+.br-blue{
+    background-color: #368bf5;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+#white-select{
+    padding: 8px;
+    background-color: white;
+    border: 1px solid lightslategrey;
+    color: lightslategrey;
+    border-radius: 7px;
+    margin-left: 7px;
+}
